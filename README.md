@@ -18,7 +18,7 @@ Ansible | Configuration Management | https://www.ansible.com/ | Configuring the 
 K3S | Lightweight Kubernetes | https://k3s.io/ | Running two single-node clusters
 ArgoCD | GitOps | https://argoproj.github.io/argo-cd/ | Deploying applications to the clusters
 Wireguard | VPN | https://www.wireguard.com/ | Connecting the remote server to the local network to reverse proxy traffic to local apps
-
+Charts | Helm Charts | https://github.com/diademiemi/charts | My personal Helm charts for applications deployed to the clusters
 ## Applications deployed to the clusters:
 Name | Description | Link | Deployed on | Used for
 --- | --- | --- | --- | ---
