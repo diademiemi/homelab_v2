@@ -8,7 +8,7 @@ Name | Description | Link
 Ansible | Configuration management. Installs libvirt for use with Terraform to provision virtual machines and K3S on the virtual machines. | https://github.com/diademiemi/ansible_project_homelab_v2
 Terraform | Infrastructure as Code. Provisioning virtual machines on a Hetzner dedicated machine and a local server. | https://github.com/diademiemi/terraform_homelab_v2
 ArgoCD | Deploying applications to the clusters with ApplicationSets. | https://github.com/diademiemi/argocd_project_homelab_v2  
-Charts | Helm Charts | https://github.com/diademiemi/charts | My personal Helm charts for applications deployed to the clusters
+Charts | My personal Helm charts for applications deployed to the clusters | https://github.com/diademiemi/charts
 
 ## Technologies used
 
