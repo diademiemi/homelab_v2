@@ -25,7 +25,7 @@ Name | Description | Link | Deployed on | Used for
 ArgoCD | GitOps | https://argoproj.github.io/argo-cd/ | Both clusters | Deploying applications to the clusters
 Traefik | Ingress Controller | https://traefik.io/ | Both clusters | Ingress for all applications. It is exposed to the internet on port 80 and 443 on the Hetzner hosted VM
 Cert-Manager | Certificate Management | https://cert-manager.io/ | Cloud | Issuing certificates for all applications
-Longhorn | Storage | https://longhorn.io/ | Both clusters | Storage for all applications
+Longhorn | Storage | https://longhorn.io/ | Cloud | Storage for all applications
 GitLab | Git Repository | https://about.gitlab.com/ | Cloud | Git mirror of my GitHub repositories
 Jellyfin | Media Server | https://jellyfin.org/ | Local | Media server for my local network
 Joplin Server | Note Taking | https://joplinapp.org/ | Cloud | Sync for Joplin on my devices
@@ -33,7 +33,7 @@ Syncthing | File Sync | https://syncthing.net/ | Local | Sync for my local files
 Vaultwarden | Password Manager | https://github.com/dani-garcia/vaultwarden | Cloud | Password manager for my devices
 
 ## Archived
-I'm ultimately archiving these repositories as I'm not planning on using this setup anymore.  
+I'm ultimately abandoning these repositories as I'm not planning on using this setup anymore. Feel free to ask me questions about it though.  
 
 You may notice the local server is only used for Syncthing and Jellyfin. The overhead on this for running it in a virtual machine, in Kubernetes, managed with ArgoCD is a bit extreme, even for me.  
 
