@@ -1,0 +1,13 @@
+[submodule "terraform"]
+	path = terraform
+	url = https://github.com/diademiemi/terraform_homelab_v2.git
+	branch = main
+[submodule "argocd"]
+	path = argocd
+	url = https://github.com/diademiemi/argocd_project_homelab_v2.git
+	branch = main
+
+[submodule "ansible"]
+	path = ansible
+	url = https://github.com/diademiemi/ansible_project_homelab_v2.git
+	branch = main
